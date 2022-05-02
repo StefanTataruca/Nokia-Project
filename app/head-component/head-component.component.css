@@ -1,0 +1,44 @@
+:host header{
+    color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top:1em;
+    justify-content: space-between;
+}
+
+:host div{
+    display: flex;
+    align-items: center;
+}
+
+:host p{
+    margin:0;
+    white-space: nowrap;
+}
+
+
+.first-component mat-icon{
+    margin-right: 1em;
+}
+
+.interact-icon mat-icon{
+    margin-right: 2em;
+}
+
+.new-item{
+    width:fit-content;
+    height: 2em;
+    background-color: #2A80D0;
+    border: 2px solid #2A80D0;
+    color:white;
+    border-radius: 25px;
+    padding: .1em 1em;
+}
+
+.new-item-container{
+    display: flex;
+    align-items: center;
+}
