@@ -18,9 +18,12 @@
 }
 .down-part{
     text-align: center;
-
-    
 }
+a{
+    color:white;
+    text-decoration: none;
+}
+
 .Slogan{
     padding: 40px 70px 40px 70px;
     border-radius: 50px;
@@ -39,10 +42,11 @@ button{
 }
 
 input{
-    padding: 10PX 40PX;
+    padding: 0.6em 3em;
     border-radius: 30PX;
     border: 1px solid #A70CA1;
     box-shadow: 0px 1px 3px #000;
+    margin-bottom: 2em;
 }
 ::placeholder{
     color: #A70CA1;

@@ -1,0 +1,29 @@
+:host div{
+    color: rgb(49, 49, 49);
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding: .5em 5.1em;
+    position: relative;
+    margin-right: .2em;
+    margin-bottom: .1em;
+    width: 100%;
+    justify-content: center;
+}
+
+:host p{
+    margin:0;
+    white-space: nowrap;
+}
+
+header{
+    display: flex;
+    margin-bottom: .7em;
+    margin-top:3em;
+}
+.week p{
+    font-weight: bold;
+}
+.week mat-icon{
+    color:#DF5BF5;
+}

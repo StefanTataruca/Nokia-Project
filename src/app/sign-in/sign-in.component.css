@@ -1,5 +1,4 @@
 
-
 .flex{
     display: flex;
     margin: 300px auto;
@@ -39,10 +38,11 @@ button{
 }
 
 input{
-    padding: 10PX 40PX;
+    padding: 0.6em 3em;
     border-radius: 30PX;
     border: 1px solid #A70CA1;
     box-shadow: 0px 1px 3px #000;
+    margin-bottom: 2em;
 }
 ::placeholder{
     color: #A70CA1;
@@ -50,3 +50,5 @@ input{
 #emailicon{
     background:url(/images/email.png) left no-repeat;
 }
+
+

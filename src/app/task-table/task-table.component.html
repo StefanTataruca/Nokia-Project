@@ -1,0 +1,31 @@
+
+<span *ngIf="nr == '1'">
+    <header>
+        <div class="week">
+            <mat-icon>keyboard_arrow_down</mat-icon>
+            <p [ngStyle]="{'color': color1}"> This Week</p>
+        </div>
+        <div *ngFor="let d of divs">
+            <p>{{d}}</p>
+        </div>
+    </header>
+  
+    <app-task title = "Ecran Login" stats="(Tataruca);(Done, #61F95E);(28Iun,, error_outline);(Low, #7EEE90,);(2d)"></app-task>
+    <app-task title = "Ecran TaskOverview" stats="(Teodorescu);(In progress, #F9B25E);(4Feb,, error_outline);(Hight, #EE7E7E,);(7d)"></app-task>
+    <app-task title = "Ecran Team Task" stats="(Teodorescu);(Waiting fot review, #82ACFF);(7iun,, error_outline);(Medium, #EED57E,);(5d)"></app-task>
+    <app-task title = "Creare baza de date" stats="(Scrob);(Waiting fot review, #82ACFF);(7iun,, error_outline);(Hight, #EE7E7E,);(5h)"></app-task>
+</span>
+
+<span *ngIf="nr == '2'">
+    <header>
+        <div class="week">
+            <mat-icon>keyboard_arrow_down</mat-icon>
+            <p [ngStyle]="{'color': color1}"> Next Week</p>
+        </div>
+        <div *ngFor="let d of divs">
+            <p>{{d}}</p>
+        </div>
+    </header>
+    <app-task title = "Ecran TeamTask" stats="();(,);(,,);(,,);()"></app-task>
+    <app-task title = "Conectare baza de date" stats="();(,);(,,);(,,);()"></app-task>
+</span>
